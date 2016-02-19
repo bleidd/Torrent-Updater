@@ -2,6 +2,54 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Inmac.org</key>
+	<dict>
+		<key>checkTorrent</key>
+		<string>Скачать .torrent</string>
+		<key>dateFormat</key>
+		<string>dd-MMM-yy HH:mm</string>
+		<key>downloadURL</key>
+		<string>https://inmac.org/dl.php?t=%@</string>
+		<key>loginCheckString</key>
+		<string>Профиль&lt;/p&gt;</string>
+		<key>loginCheckURL</key>
+		<string>https://inmac.org/</string>
+		<key>modifiedParseEnd</key>
+		<string> ]&lt;/span&gt;</string>
+		<key>modifiedParseStart</key>
+		<string>&lt;span title=title="Зарегистрирован"&gt;[ </string>
+		<key>monthsNames</key>
+		<array>
+			<string>янв</string>
+			<string>фев</string>
+			<string>мар</string>
+			<string>апр</string>
+			<string>май</string>
+			<string>июн</string>
+			<string>июл</string>
+			<string>авг</string>
+			<string>сен</string>
+			<string>окт</string>
+			<string>ноя</string>
+			<string>дек</string>
+		</array>
+		<key>name</key>
+		<string>Inmac.org</string>
+		<key>needLogin</key>
+		<true/>
+		<key>order</key>
+		<integer>1</integer>
+		<key>removeInTitle</key>
+		<string> :: InMAC.ORG</string>
+		<key>titleParseEnd</key>
+		<string>&lt;/title&gt;</string>
+		<key>titleParseStart</key>
+		<string>&lt;title&gt;</string>
+		<key>titleSeparator</key>
+		<string> /</string>
+		<key>torrentUrl</key>
+		<string>https://inmac.org/topic/</string>
+	</dict>
 	<key>Free-Rutor.org</key>
 	<dict>
 		<key>needLogin</key>
